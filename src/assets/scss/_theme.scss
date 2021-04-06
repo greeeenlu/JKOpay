@@ -1,0 +1,13 @@
+@import "variables";
+
+.primary{
+  background-color: $theme-primary;
+  color: white
+}
+
+.secondary{
+  background-color: $theme-secondary;
+  &-text{
+    color: $theme-secondary;
+  }
+}
